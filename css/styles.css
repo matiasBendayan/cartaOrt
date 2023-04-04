@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+
+body {
+  font-family: 'Antonio', serif;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 980px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 6em;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 0;
+  border-bottom: 1px solid #000;
+}
+
+h2 {
+  font-size: 2.5em;
+  text-align: left;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.titulo {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 0;
+}
+
+.carta {
+  color: #777;
+  list-style-type: none;
+  padding: 0;
+}
+
+.carta li {
+  margin-bottom: 7px;
+}
+
+.carta div {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+
+.plato,
+.precio {
+  font-size: 1.5em;
+  color: #000;
+}
+
+.plato {
+  float: left;
+  margin-right: 7px;
+}
+
+.precio {
+  float: right;
+  margin-left: 7px;
+}
+
+.footer {
+  background-color: lightgray;
+}
+
+.redes {
+  list-style: none;
+  display: flex;
+}
+
+.redes li {
+  margin: 10px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
