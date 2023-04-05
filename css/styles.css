@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
 
 body {
+  margin: 0;
   font-family: 'Antonio', serif;
   line-height: 1.5;
 }
@@ -64,6 +65,7 @@ h2 {
 
 .footer {
   background-color: lightgray;
+  padding-bottom: 50px;
 }
 
 .redes {
@@ -73,14 +75,4 @@ h2 {
 
 .redes li {
   margin: 10px;
-}
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
 }
