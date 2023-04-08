@@ -12,13 +12,52 @@
 
 <body>
   <main>
+    <header>
+      <h1>MENÚ</h1>
+      <h2 class="titulo">RESTORT</h2>
+    </header>
+    <div class="slideshow-container">
+
+    
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="images/Asado.jpg" style="width:100%">
+       
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="images/ensalada.jpg" style="width:100%">
+      
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="images/pastas.jpg" style="width:100%">
+      
+      </div>
+    
+     <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="images/pollo.jpg" style="width:100%">
+     
+      </div>
+     
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
     <div class="container">
 
-      <header>
-        <h1>MENÚ</h1>
-        <h2 class="titulo">RESTORT</h2>
-      </header>
-
+     
       <h2>Entradas</h2>
 
       <ul class="carta">
@@ -78,8 +117,10 @@
             src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=es&amp;q=Yatay%20240%20CABA+(Restort)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
         </div>
       </div>
+      
     </footer>
   </main>
+  <script src="index.js"></script>
 </body>
 
 </html>
