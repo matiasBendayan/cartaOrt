@@ -11,7 +11,6 @@ function popUp(){
 }
 
 function validarCampos(){
-  debugger
   if(document.getElementById("nombre").value && document.getElementById("tel").value && document.getElementById("direc").value && document.getElementById("menuEntero").value){
     popUp();
   }
