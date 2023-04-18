@@ -158,6 +158,11 @@ h2 {
   list-style: none;
   display: flex;
 }
+.delivery {
+  list-style: none;
+  display: flex;
+  margin-top: 10px;
+}
 .redes li {
   margin: 10px;
 }
