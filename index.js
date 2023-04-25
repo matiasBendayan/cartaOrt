@@ -7,12 +7,14 @@ function plusSlides(n) {
 }
 
 function popUp(){
-  alert("Pedido enviado!")
+ alert("Pedido enviado")
 }
 
 function validarCampos(){
+
+//concatenar los datos cargados en var , usar funcion confirm para confirmar los datos a enviar, si se confirma se valida
   if(document.getElementById("nombre").value && document.getElementById("tel").value && document.getElementById("direc").value && document.getElementById("menuEntero").value){
-    popUp();
+  popUp();
   }
 }
 
