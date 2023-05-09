@@ -202,7 +202,7 @@
         </ul>
         <h2>Delívery</h2>
 
-        <form >
+        <form onsubmit="validarCampos(event)">
           <div class="delivery">
             <label class="plato"> Nombre y apellido: </label>
             <input id="nombre" type="text" placeholder="Ej:Juan Perez" required/>
@@ -231,7 +231,7 @@
             <label for="html">Mercado Pago</label><br />
           </div>
           <br/>
-          <button type="submit" onclick="validarCampos()" onsubmit="popUp()">Enviar pedido</button>
+          <input type="submit"></input>
         </form>
       </div>
 

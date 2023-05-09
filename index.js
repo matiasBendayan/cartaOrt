@@ -6,13 +6,11 @@ function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-function popUp(){
-  alert("Pedido enviado!")
-}
+function validarCampos(event){
+  event.preventDefault();
 
-function validarCampos(){
   if(document.getElementById("nombre").value && document.getElementById("tel").value && document.getElementById("direc").value && document.getElementById("menuEntero").value){
-    popUp();
+    alert("Pedido enviado! \n"  + platos.toString() + "\n Gracias!");
   }
 }
 
